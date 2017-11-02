@@ -29,7 +29,7 @@ public class SpringcloudDemoApplication {
 	}
 	@RequestMapping("/")
 	public String Hello(){
-		return "Hello, Spring Boot...";
+		return "Hello, Spring Boot... ";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringcloudDemoApplication.class, args);

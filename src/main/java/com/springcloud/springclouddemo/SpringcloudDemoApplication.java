@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.atomic.AtomicLong;
-@EnableScheduling//启用cron
+//@EnableScheduling//启用cron
 @EnableEurekaServer//启用springcloud eureka服务注册
 @RestController
 @SpringBootApplication
